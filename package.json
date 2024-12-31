@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "test.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "node src/main.js",
+     "build": "copyfiles -u 1 src/**/*.js dist"
   },
   "keywords": [],
   "author": "",
