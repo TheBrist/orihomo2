@@ -2,8 +2,8 @@ name: CI Pipeline
 
 on:
   push:
-    paths:
-      - .github/workflows/**
+    branches:
+      - dev
 jobs:
   test:
     runs-on: ubuntu-latest
